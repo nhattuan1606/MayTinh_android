@@ -98,6 +98,7 @@ public class CurrencyFragment extends Fragment {
                 else {
                     new ReadJSONObject().execute("https://v6.exchangerate-api.com/v6/95589e58e0cef5898e4accd1/pair/" + code[flagDuoi] + "/" + code[flagTren]);
                 }
+                text = "";
             }
         });
 
