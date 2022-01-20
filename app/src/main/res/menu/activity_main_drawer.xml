@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Calculator">
+        <menu>
+            <item
+                android:id="@+id/nav_standard"
+                android:icon="@drawable/ic_calculator"
+                android:title="@string/menu_standard" />
+            <item
+                android:id="@+id/nav_scientific"
+                android:icon="@drawable/ic_scientific"
+                android:title="@string/menu_scientific" />
+            <item
+                android:id="@+id/nav_programmer"
+                android:icon="@drawable/ic_programmer"
+                android:title="@string/menu_programmer" />
+        </menu>
+    </item>
+<!--    <group android:checkableBehavior="single">-->
+
+<!--    </group>-->
+
+    <item android:title="Converter">
+        <menu>
+            <item
+                android:id="@+id/nav_currency"
+                android:title="@string/menu_currency"
+                android:icon="@drawable/ic_currency"/>
+            <item
+                android:id="@+id/nav_length"
+                android:title="@string/menu_length"
+                android:icon="@drawable/ic_length"/>
+            <item
+                android:id="@+id/nav_weight"
+                android:title="@string/menu_weight"
+                android:icon="@drawable/ic_weight"/>
+
+        </menu>
+    </item>
+</menu>
